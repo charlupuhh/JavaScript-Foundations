@@ -140,7 +140,7 @@ function maxLoan(monthly, interest){
 maxLoan(1000, 0.05);
 
 /* 🏡 Explore using `window.prompt()` to allow a user to input parameters in the browser */
-/*
+
 var p = prompt("What is your principal amount");
 var i = prompt("What is your interest rate");
 var n = prompt("How many years is your loan");
@@ -151,7 +151,7 @@ function mortgageCalculator(){
     console.log(`Hello ${name}, with your given values, your monthly rate is ${monthlyRate}`);
 }
 mortgageCalculator()
-*/
+
 
 /* 🏡  Refactor your `variableInterestRate()` function to accept an array of interest rates (make sure to copy and paste as to not lose your work!) */
 function stretchVariableInterestRate(p, interestArray, n){
